@@ -1,0 +1,55 @@
+<svg width="800" height="120" viewBox="0 0 800 120"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;700&amp;display=swap');
+      .title  { font: 300 52px/1 "JetBrains Mono", monospace; fill: #e8e8ec; letter-spacing: -2px; }
+      .accent { fill: #7c6af5; }
+      .sub    { font: 400 13px/1 "JetBrains Mono", monospace; fill: #8888a0; letter-spacing: 1px; }
+      .cursor { fill: #7c6af5; }
+    </style>
+
+    <!-- shimmer gradient -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7c6af5" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#7c6af5" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7c6af5" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        from="-1 0" to="1 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- bg -->
+  <rect width="800" height="120" fill="#0f0f11" rx="12"/>
+
+  <!-- ambient blobs -->
+  <ellipse cx="100" cy="60" rx="180" ry="80" fill="#7c6af5" opacity="0.04">
+    <animate attributeName="cx" values="100;140;100" dur="12s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="700" cy="60" rx="160" ry="70" fill="#5b8dee" opacity="0.03">
+    <animate attributeName="cx" values="700;660;700" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- title -->
+  <text x="400" y="62" text-anchor="middle" class="title">
+    <tspan>S</tspan><tspan class="accent" filter="url(#glow)">ecruple</tspan>
+  </text>
+
+  <!-- shimmer line under title -->
+  <rect x="280" y="72" width="240" height="1" fill="url(#shimmer)" opacity="0.6"/>
+
+  <!-- subtitle typewriter -->
+  <text x="400" y="96" text-anchor="middle" class="sub" id="sub">
+    <tspan id="tw">arch linux · hyprland · wayland</tspan>
+    <tspan class="cursor" opacity="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      ▋
+    </tspan>
+  </text>
+</svg>

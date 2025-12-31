@@ -1,0 +1,67 @@
+<svg width="936" height="32" viewBox="0 0 936 32" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bt { font: 700 11px/1 "JetBrains Mono", monospace; }</style></defs>
+  <g transform="translate(0, 2)">
+    <rect width="110" height="28" rx="6" fill="#7c6af5" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#7c6af5" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#7c6af5">hyprland</text>
+    <rect width="110" height="28" rx="6" fill="#7c6af5" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.00s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(118, 2)">
+    <rect width="110" height="28" rx="6" fill="#5b8dee" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#5b8dee" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#5b8dee">waybar</text>
+    <rect width="110" height="28" rx="6" fill="#5b8dee" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.12s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(236, 2)">
+    <rect width="110" height="28" rx="6" fill="#74c7ec" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#74c7ec" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#74c7ec">quickshell</text>
+    <rect width="110" height="28" rx="6" fill="#74c7ec" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.24s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(354, 2)">
+    <rect width="110" height="28" rx="6" fill="#4ec9b0" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#4ec9b0" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#4ec9b0">kitty</text>
+    <rect width="110" height="28" rx="6" fill="#4ec9b0" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.36s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(472, 2)">
+    <rect width="110" height="28" rx="6" fill="#5bbf7a" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#5bbf7a" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#5bbf7a">neovim</text>
+    <rect width="110" height="28" rx="6" fill="#5bbf7a" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.48s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(590, 2)">
+    <rect width="110" height="28" rx="6" fill="#d4a840" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#d4a840" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#d4a840">rofi</text>
+    <rect width="110" height="28" rx="6" fill="#d4a840" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.60s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(708, 2)">
+    <rect width="110" height="28" rx="6" fill="#e06080" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#e06080" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#e06080">matugen</text>
+    <rect width="110" height="28" rx="6" fill="#e06080" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.72s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(826, 2)">
+    <rect width="110" height="28" rx="6" fill="#8888a0" opacity="0.15"/>
+    <rect width="110" height="28" rx="6" fill="none" stroke="#8888a0" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="18" text-anchor="middle" class="bt" fill="#8888a0">zsh</text>
+    <rect width="110" height="28" rx="6" fill="#8888a0" opacity="0">
+      <animate attributeName="opacity" values="0.08;0;0.08" dur="4s" begin="0.84s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
